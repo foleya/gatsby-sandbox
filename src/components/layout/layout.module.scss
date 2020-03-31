@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 
 body {
-  margin: 0;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .Container {
   margin: 0 auto;
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 800px;
+}
+
+.Content {
+  flex-grow: 1;
 }
